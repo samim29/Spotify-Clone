@@ -1,4 +1,4 @@
-#🎶 Spotify Clone
+🎶 Spotify Clone
 <br>
 This is a Spotify Clone built entirely with HTML and CSS. This project recreates Spotify's interface with a focus on styling and layout, offering a responsive design that works seamlessly on both desktop and mobile devices.
 
