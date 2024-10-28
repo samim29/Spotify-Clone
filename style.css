@@ -207,3 +207,148 @@ a{
    border-top: 1px solid white; 
    opacity: 0.4;
 }
+
+.music_player{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.player{
+    width: 50%;
+    
+}
+
+.player-controls{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.player-control-icon{
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+}
+.player-control-icon:hover{
+    opacity: 1;
+}
+
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-bar{
+    width: 75%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color:#1bd760 ;
+    border-radius: 50%;
+    margin-top: -6px;
+
+}
+
+.album{
+    width: 25%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.album-img{
+    height: 100%;
+    /* position: absolute;
+    bottom:0px ; */
+    border-radius: 0.5rem;
+}
+.album-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.icon2{
+    height: 39px;
+    
+   
+   
+    margin-left: 1rem;
+}
+.icon1{
+    opacity: 0.6;
+    margin-left: 1rem;
+}
+.album-info{
+    margin-left: 1rem;
+}
+.controls{
+    display: flex;
+    width: 25%;
+    
+}
+.controls-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.controls-icons #one{
+    height: 35px;
+    margin-right: 1.7rem;
+      
+}
+.controls-icons #two{
+    height: 1.99rem;
+    margin-right: 1.7rem;    
+}
+.controls-icons #three{
+    height: 1.4rem;
+    margin-right: 1.7rem; 
+    opacity: 0.6;   
+}
+.controls-icons #four{
+    height: 1rem;
+    margin-right: 1.7rem; 
+    opacity: 0.6;      
+}
+.controls-icons #five{
+    height:37px;
+    margin-right: 1.7rem;    
+}
+
+#volume::-webkit-slider-runnable-track{
+    
+    background-color: #ddd;
+    border: 100px;
+    height: 0.2rem;
+}
+
+#volume::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color:#ddd ;
+    border-radius: 50%;
+    margin-top: -6px;
+
+}
+
+.singer-name{
+    opacity: 1;
+    font-weight: 700;
+}
